@@ -1,0 +1,14 @@
+name: RouletteSurvival
+version: '${project.version}'
+main: com.wamel.roulettesurvival.RouletteSurvival
+api-version: 1.19
+authors: [ WaMel_ ]
+description: "일정 주기마다 다양한 이벤트가 발생하는 룰렛이 발동됩니다!"
+website: "디스코드: 종현#7737"
+softdepend:
+  - ProtocolLib
+
+commands:
+  roul:
+  roulette:
+    description: "룰렛과 관련된 명령어입니다."
